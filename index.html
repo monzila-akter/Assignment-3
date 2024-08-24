@@ -29,6 +29,8 @@
         font-style: normal;
       }
     </style>
+    <!-- css file link -->
+    <link rel="stylesheet" href="./styles.css" />
     <title>Assignment-3</title>
   </head>
   <body class="font-manrope">
@@ -464,8 +466,124 @@
         </div>
       </section>
       <!-- Discuss project section -->
+      <section class="py-8 lg:py-24 px-6 lg:px-48 project">
+        <div class="container mx-auto">
+          <!-- title part -->
+          <div class="flex flex-col items-center justify-center mb-8">
+            <button
+              class="btn bg-[#ABEF5F] bg-opacity-50 rounded-3xl text-base font-bold text-[#494949] px-6 mb-4"
+            >
+              <i class="fa-solid fa-arrow-right text-lg"></i>
+              Let’s Connect
+            </button>
+            <h2
+              class="lg:text-[40px] text-[24px] font-extrabold leading-tight text-center lg:w-3/4 mb-6"
+            >
+              Let’s Discuss Next Project
+            </h2>
+            <p
+              class="lg:max-w-2xl text-base font-medium text-center text-[#494949]"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+          <!-- input part one -->
+          <div class="w-full flex flex-col lg:flex-row gap-6">
+            <div class="w-full">
+              <input
+                class="w-full h-full p-5 rounded-[64px]"
+                type="text"
+                placeholder="First Name*"
+              />
+            </div>
+            <div class="w-full">
+              <input
+                class="w-full h-full p-5 rounded-[64px]"
+                type="text"
+                placeholder="Last Name*"
+              />
+            </div>
+          </div>
+          <!-- input part two -->
+          <div class="w-full flex flex-col lg:flex-row gap-6 mt-6">
+            <div class="w-full">
+              <input
+                class="w-full h-full p-5 rounded-[64px]"
+                type="number"
+                placeholder="Phone Number*"
+              />
+            </div>
+            <div class="w-full">
+              <input
+                class="w-full h-full p-5 rounded-[64px]"
+                type="email"
+                placeholder="Email Number*"
+              />
+            </div>
+          </div>
+          <!-- input part three -->
+          <div
+            class="w-full mt-6 h-[240px] p-5 text-[#A0A0A0] rounded-[32px] bg-white"
+          >
+            <p>Write your message here</p>
+          </div>
+          <!-- button part four -->
+          <div
+            class="btn bg-[#ABEF5F] rounded-[32px] text-white h-14 mt-6 w-full"
+          >
+            <a class="text-xl text-[#1C1C1C] font-extrabold">Send Mail</a>
+            <div
+              class="w-8 h-8 bg-[#1C1C1C] rounded-full flex items-center justify-center"
+            >
+              <i class="fa-solid fa-arrow-up rotate-45 text-xl"></i>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer section -->
-    <footer></footer>
+    <footer class="py-16 lg:py-24 px-6 lg:px-72 bg-neutral-900">
+      <div class="container mx-auto flex flex-col items-center">
+        <!-- first -->
+        <div class="flex items-center space-x-2 mb-5">
+          <div
+            class="w-8 h-8 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+          >
+            <i class="fa-solid fa-arrow-up rotate-45 text-xl"></i>
+          </div>
+          <a class="font-extrabold text-3xl text-[#E9E9E9]">Rinterio</a>
+        </div>
+        <!-- two -->
+        <p
+          class="lg:max-w-2xl text-base font-medium text-center text-[#737373] mb-12"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <!-- three -->
+        <div
+          class="w-full flex flex-col lg:flex-row justify-between items-center mb-12 gap-y-8"
+        >
+          <a class="text-base text-[#E9E9E9]" href="">Home</a>
+          <a class="text-base text-[#E9E9E9]" href="">Services</a>
+          <a class="text-base text-[#E9E9E9]" href="">Portfolio</a>
+          <a class="text-base text-[#E9E9E9]" href="">Blogs</a>
+          <a class="text-base text-[#E9E9E9]" href="">Contact Us</a>
+        </div>
+        <!-- four -->
+        <div
+          class="btn bg-[#ABEF5F] rounded-[32px] w-full lg:w-[212px] text-white h-14 border-none"
+        >
+          <a class="text-xl text-[#1C1C1C] font-extrabold">Book Consult</a>
+          <div
+            class="w-8 h-8 bg-[#1C1C1C] rounded-full flex items-center justify-center"
+          >
+            <i class="fa-solid fa-arrow-up rotate-45 text-xl"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
