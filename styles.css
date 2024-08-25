@@ -4,3 +4,28 @@
   background-repeat: no-repeat;
   border: 7px solid white;
 }
+.challenge {
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./assets/bg-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.one {
+  background-image: url(./assets/article2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.two {
+  background-image: url(./assets/article3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.three {
+  background-image: url(./assets/article1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
